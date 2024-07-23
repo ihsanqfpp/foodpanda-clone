@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Panda</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<style>
+  .btn-find-food {
+ 
+    color:white;
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-left {
+    position: absolute;
+    top: 93%;
+    left: 15px; 
+    transform: translateY(-50%);
+    
+  }
+    .btn-custom {
+            color: rgb(241, 94, 119); 
+            border-color: rgb(245, 76, 104); 
+        }
+
+        .btn-custom:hover {
+            color: white; 
+            background-color: pink; 
+            border-color: pink; 
+        }
+        .btn {
+          background-color: white; 
+         
+      }
+      
+      .btn:hover {
+          color: black; 
+          background-color:pink; 
+         
+      }
+  
+</style>
+
+</head>
+<body>
+  
+    
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color:rgb(247, 7, 87)">
+        <img src="panda.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        FoodPanda
+      </a>
+      
+        <div class="d-flex  ms-auto me-3">
+          <button type="button" class="btn btn-outline-primary  btn-custom me-4">Log in</button>
+          <button type="button" class="btn btn-outline-danger bg-danger" style="color:white;">Sign up</button>
+          
+        </div>
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle"   role="button" data-bs-toggle="dropdown"  style="color:black; padding-left:10px;">
+            <i class="fa-solid fa-globe" style="padding-right:10px;"></i>EN
+          </a>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="#">English</a></li>
+      </div>
+    
+  </nav>
+  <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class=" col-6 pt-5">
+        <h1>It's the food and groceries you love,<br> delivered</h1>
+        <form class="d-flex ms-auto pt-5">
+          <input class="form-control me-2" type="search" placeholder="Your Street And Street Number" aria-label="Search">
+          <button type="button" class="btn btn-find-food btn-lg" style="border-color:brown; background-color:rgb(223, 59, 86);">Find</button>
+        </form>
+      </div>
+      <div class="col-5">
+        <img src="panda1.png" class="img-fluid w-100 h-100"  alt="...">
+      </div>
+    </div>
+  </div>
+   
+
+
+
+  <h2 class="pt-5">You prepare the food, we handle the rest</h2>
+
+  <div class="container-fluid " style="background-image:url(panda2.webp)">
+    <div class="row">
+      
+      <div class="col-1">
+
+      </div>
+      <div class="col-4">
+        <div class="card-body" style="color:white;">
+          <h6 class="card-title" style="font-weight:bold; margin-top:100px;">List your restaurant or shop on foodpanda</h6>
+          <p class="card-text">Would you like millions of new customers to enjoy your amazing food and groceries? So would we!
+  
+            It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!
+            
+            Interested? Let's start our partnership today!</p>
+          <a href="#" class="btn btn-danger">Get started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+               <!-- CITIES SECTION -->
+
+
+       <div class="container mt-5">
+        <div class="row">
+          <h1>Find us in these cities and many more!</h1>
+        <div class="image-container col-3">
+          <img src="islmbad.webp" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Islamabad</button>
+        </div>
+        <div class="image-container col-3">
+          <img src="karachi.webp"  class="rounded" alt="..." style="height:280px;">
+          <button type="button" class="btn  btn-left">Karachi</button>
+        </div>
+        
+        <div class="image-container col-3">
+          <img src="bwp.avif"  alt="..."  class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Lahore</button>
+        </div>
+        
+        <div class="image-container col-3">
+          <img src="pesh.jpg"  alt="..." class="rounded"  style="height:280px;">
+          <button type="button" class="btn  btn-left">peshawar</button>
+        </div>
+        <div class="image-container col-3 pt-3">
+          <img src="gujrat.avif" class="img-fluid" alt="..."class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Bahawlpur</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="gujrat.jpg" class="img-fluid" alt="..." class="rounded" style="height:280px;">
+          <button type="button" class="btn btn-left">gujrat</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="nwla.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Gujranwla</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="mardan.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Mardan</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="abad.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">AbotAbad</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="jhlm.jpg" alt="Sample Image"  class="rounded"style="height:280px;">
+          <button type="button" class="btn  btn-left">Jhelum</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="pindi.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Rawalpindi>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="mree.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn btn-left">Muree</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="mltn.jpg" alt="Sample Image"  class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Multan</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="qutta.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn btn-left">Quetta</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="lahore.avif"  class="rounded" alt="..." style="height:280px;">
+          <button type="button" class="btn  btn-left">Sahiwal</button>
+        </div>
+        <div class="image-container col-3  pt-3">
+          <img src="slkt.jpg" alt="Sample Image" class="rounded" style="height:280px;">
+          <button type="button" class="btn  btn-left">Sialkot</button>
+        </div>
+        
+        
+      </div>
+    </div>
+              <!-- CITIES SECTION -->
+      
+
+    <div class="container pt-5">
+      <h1>Put us in your pocket</h1>
+      <div class="row" style="background-color:rgb(255, 12, 223);">
+        
+        <div class="col-6 pt-5 ">
+          <h4>Download the food and groceries you love</h4>
+          <p class="pt-5">banner
+            It's all at your fingertips – the restaurants and shops you love. Find the right 
+            food and groceries to suit your mood, and make the first bite last. Go ahead, download us.</p>
+            <img src="pic.jpg" class="img-fluid pt-5" alt="..." >
+        </div>
+        <div class="col-6">
+        <img src="panda4.webp" class="img-fluid img-rounded" alt="...">
+      </div>
+      </div>
+    </div>
+
+
+    <div class="container pt-5">
+      <div class="row">
+          <div class="col">
+              <h2>Order food and groceries online from the best restaurants and shops on foodpanda</h2>
+              <p>Are you hungry? Did you have a long and stressful day? Interested in getting a
+                   cheesy pizza delivered to your office or looking to avoid the weekly shop? Then
+                    foodpanda Pakistan is the right destination for you! foodpanda offers you a long and 
+                  detailed list of the best restaurants and shops near you to help make your every day easier.</p>
+                  <h1>What's new?</h1>
+                  <p>✓ Wide variety of restaurants and shops, an abundance of cuisines & products.<br>
+                      ✓ High quality delivery service.<br>
+                      ✓ Live chat feature to give App users instant help when they need it.<br>
+                      ✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you. </p>
+          </div>
+      </div>
+  </div>
+  <hr>
+
+                <!-- QUESTION SECTION -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Frequently Asked Questions</h1>
+        <h2>How can I get foodpanda delivery?</h2>
+        <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, browse through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!</p>
+      <h2>Which takeout restaurants open now near me? </h2>
+      <p>You can check which takeout restaurants are open now near you by simply typing your address in the location bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area. </p>
+      <h3>Does foodpanda deliver 24 hours?</h3>
+      <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart.</p>
+      <h3>Can you pay cash for foodpanda?</h3>
+      <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+      <h3>How can I pay foodpanda online?</h3>
+      <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+      <h3>Can I order foodpanda for someone else?</h3>
+      <p>Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund</p>
+      <h3>How much does foodpanda charge for delivery? </h3>
+      <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+    </div>
+    </div>
+  </div>
+  
+  <hr>
+                      <!-- QUESTION SECTION -->
+  
+
+                <!-- SECOND NAV SECTION -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Laos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cambodia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Myanmar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Thailand</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hong Kong</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Taiwan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Malaysia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Philippines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Singapore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bangladesh</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>
+
+                <!-- SECOND NAV SECTION -->
+
+         <!-- HEADER SECTION  -->
+<div class="container-fluid pt-2">
+  <div class="row">
+    <div class="col-3">
+<h4>© foodpanda</h4>
+    </div>
+    <div class="col-3">
+      <h4 style="color:rgb(211, 83, 104)">Press</h4>
+      <h5 class="pt-2" style="color:rgb(211, 83, 104)">pandapay Terms and Conditions</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Security</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Careers</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Cashback Terms and Conditions</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">Partner with Us</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">All cities</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">pandapro - Monthly Subscription Programme</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Ramzan deals</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Areas delivered in Lahore</h5>
+    </div>
+    <div class="col-3">
+      <h4 style="color:rgb(211, 83, 104)">Help Center</h4>
+      <h5 class="pt-2" style="color:rgb(211, 83, 104)">Terms and Conditions</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Download foodpanda Apps</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Suggest a Restaurant</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">All cuisines</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">pandago - Request a Rider</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">Update on COVID-19 in Pakistan</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">foodpanda Home Chef</h5>
+      <h5  class="pt-4" style="color:rgb(211, 83, 104)">Areas delivered in Karachi</h5>
+      <h5   class="pt-3" style="color:rgb(211, 83, 104)">Areas delivered in Islamabad</h5>
+    </div>
+    <div class="col-3">
+      <h5 style="color:rgb(211, 83, 104)">Refunds with pandapay</h5>
+      <h5 class="pt-2" style="color:rgb(211, 83, 104)">Privacy policy</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Human rights policy</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Corporate Customer</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">foodpanda Magazine</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">foodpanda Vouchers & Coupons</h5>
+      <h5 class="pt-2"  style="color:rgb(211, 83, 104)">pandamart Grocery Delivery</h5>
+      <h5  class="pt-2" style="color:rgb(211, 83, 104)">Become an Affiliate</h5>
+      <h5  class="pt-4" style="color:rgb(211, 83, 104)">Areas delivered in Gujranwala</h5>
+      <h5   class="pt-3" style="color:rgb(211, 83, 104)">Areas delivered in Peshawar</h5>
+    </div>
+  </div>
+</div>
+<hr>
+                 <!-- HEADER SECTION  -->
+
+
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-2">
+                    <a class="navbar-brand" href="#" style="color:rgb(247, 7, 87)">
+                      <img src="/images/panda.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                      FoodPanda
+                    </a>
+                  </div>
+                  <div class="col-2">
+                    <h5 style="color:rgb(243, 12, 12); font-style:italic;">Delivery Hero</h5>
+                  </div>
+                  <div class="col-6">
+
+                  </div>
+                  <div class="col-2 " style="color:rgb(247, 7, 87)">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                    
+                  </div>
+                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

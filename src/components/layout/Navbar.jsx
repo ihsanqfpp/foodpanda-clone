@@ -18,7 +18,7 @@ const Navbar = () => {
           role="button"
           aria-label="Toggle cart"
         >
-          {/* We assume panda.png is inside assets/images/ */}
+          {/* We assume panda.png is inside public/images/ */}
           <div className="bg-foodpanda-primary rounded-xl p-1 flex items-center justify-center relative">
             <FaShoppingBag className="text-white w-6 h-6" />
             {totalQuantity > 0 && (

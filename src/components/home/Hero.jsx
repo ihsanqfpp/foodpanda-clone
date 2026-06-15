@@ -26,7 +26,7 @@ const Hero = () => {
         {/* Right Image */}
         <div className="order-1 lg:order-2 pt-8 lg:pt-0">
           <img 
-            src="/src/assets/images/panda1.png" 
+            src="/images/panda1.png" 
             alt="Hero delivery" 
             className="w-full max-w-xl mx-auto object-contain"
           />

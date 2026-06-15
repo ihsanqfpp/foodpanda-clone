@@ -15,7 +15,7 @@ const Home = () => {
         {/* Partner Section */}
         <section className="max-w-7xl mx-auto px-4 md:px-8 py-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">You prepare the food, we handle the rest</h2>
-          <div className="bg-cover bg-center rounded-3xl overflow-hidden relative shadow-lg" style={{ backgroundImage: "url('/src/assets/images/panda2.webp')", minHeight: "400px" }}>
+          <div className="bg-cover bg-center rounded-3xl overflow-hidden relative shadow-lg" style={{ backgroundImage: "url('/images/panda2.webp')", minHeight: "400px" }}>
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="relative z-10 p-8 md:p-16 max-w-xl">
               <div className="bg-white rounded-2xl p-8 shadow-xl">
@@ -45,10 +45,10 @@ const Home = () => {
                 <p className="text-gray-600 mb-8 leading-relaxed">
                   It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit your mood, and make the first bite last. Go ahead, download us.
                 </p>
-                <img src="/src/assets/images/pic.jpg" alt="App Preview" className="w-full rounded-xl shadow-md border object-cover" style={{maxHeight: '200px'}}/>
+                <img src="/images/pic.jpg" alt="App Preview" className="w-full rounded-xl shadow-md border object-cover" style={{maxHeight: '200px'}}/>
               </div>
               <div className="flex justify-center">
-                 <img src="/src/assets/images/panda4.webp" alt="Hands holding phone" className="w-full max-w-md object-contain rounded-3xl" />
+                 <img src="/images/panda4.webp" alt="Hands holding phone" className="w-full max-w-md object-contain rounded-3xl" />
               </div>
             </div>
           </div>
